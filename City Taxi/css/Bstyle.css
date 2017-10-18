@@ -5,20 +5,16 @@ body {
     
 }
 
-.page {
-overflow: hidden;
-background-color: #fff;
-}
+
 
 
 .logo {
 text-align: center;
 }
 
-.navbar {
+.navbar-collapse {
 	position: relative;       
-    margin-top: 11px; 
-    height: 60px;
+    margin-top: 11px;    
     background: #1c1c1c;
     border-radius: 0;
 }
@@ -26,37 +22,95 @@ text-align: center;
 
 .navbar-brand{
 margin-top: 0%;
-    
+padding: 0;
 }
 
 .navbar-brand h3 {
 margin-top: 17px;
+font-family: 'Droid Serif', sans-serif;
 color: #fff;
+font-size: 30px;
 }
 
 .navbar-brand p{
 color: #ff742e;
 display: inline-block;
-
+0553350306
 }
 
 .navbarPos {
     width: 984px;
-    height: 80px;
-    margin-left: 16%; margin-top: 0.4%;   
+    height: 50px;
+    margin-left: 16.5%;
+    margin-top: 1.2%;  
 }
 
-.navbar .nav li a {
+.navbar-collapse .nav li a {
     color: #fff;
     font-family: 'EB Garamond', serif;
-    font-weight: 300;
-
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 7px 11px 7px 11px;    
 }
 
-.navbar .nav .active a {
+.navbar-collapse .nav li a:hover {
+    background: #ff742e;
+    transition: 0.4s;
+}
+
+.navbar .nav .active {
     color: #fff;
+    background-color: #ff742e;
 }
 
+.page .list-primary li a {
+    transition: .3s all ease;
+}
 
+.list-inline li a {
+    font-size: 17px;
+    text-decoration: none;   
+}
 
+.list-inline li a:hover {
+color: #ff742e;
+transition: 0.4s;
+}
 
+.icon.icon-xxs {
+    width: 30px;
+    height: 30px;
+    line-height: 25px;
+    font-size: 16px;
+    list-style: none;
+}
+
+.text-white {
+    color: #fff;
+ 
+}
+
+.header-container {
+    width: 100%;
+    height: 900px;
+    border-left: none;
+    border-right: none;
+    position: relative;
+    padding: 20px;
+}
+
+.video-container {
+    position: absolute;
+    top: -4%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.80;
+    width: 100%;    
+}
