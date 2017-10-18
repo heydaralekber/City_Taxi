@@ -1,20 +1,62 @@
+body {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.6em;
+    
+}
+
 .page {
-    overflow: hidden;
-    background-color: #fff;
+overflow: hidden;
+background-color: #fff;
 }
 
 
+.logo {
+text-align: center;
+}
 
-/*.navbar {
-	position: relative;
-    padding: 17px 20px;
-    margin-top: 24px;
+.navbar {
+	position: relative;       
+    margin-top: 11px; 
+    height: 60px;
     background: #1c1c1c;
     border-radius: 0;
 }
 
-.navbar-inner {
-	z-index: 2;
-    padding: 0;
-    background: #fff;
-}*/
+
+.navbar-brand{
+margin-top: 0%;
+    
+}
+
+.navbar-brand h3 {
+margin-top: 17px;
+color: #fff;
+}
+
+.navbar-brand p{
+color: #ff742e;
+display: inline-block;
+
+}
+
+.navbarPos {
+    width: 984px;
+    height: 80px;
+    margin-left: 16%; margin-top: 0.4%;   
+}
+
+.navbar .nav li a {
+    color: #fff;
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
+
+}
+
+.navbar .nav .active a {
+    color: #fff;
+}
+
+
+
+
